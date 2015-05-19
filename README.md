@@ -34,7 +34,7 @@ Nimail | Responsive Email Starterkit
 1. Duplicate the directory `/nimail-sassy-ink/`  (or nimail-saucy-ink *) and give it the name of your new email
 2. Adjust some **vars** and **paths** in the `gulpfile.js` file
 3. Add your partial files in the `/partials/` directory
-4. Work your html structure in the **index.temp.html** file
+4. Work your html structure in the `index.temp.html` file
 5. Add your specific styles in the `/stylesheets/scss/styles.scss` file
 
 ##### In the directory structure :
@@ -84,7 +84,7 @@ To compile your assets during development, run `gulp serve` in the command line.
 
 ##### Deployment with `gulp build`
 
-When you're ready to « build » your changes and show them to your email marketing service, run `gulp build` to do everything the standard command does, with it more:
+When you're ready to build your changes, run `gulp build` to do everything the standard command does, with it more:
 
 - Inline the CSS styles in the `mail.html` and `test.html` files
 - Insert the media queries styles in the document <head> of the `mail.html` and `test.html` files (so the media queries don't get stripped)
@@ -95,11 +95,11 @@ When you're ready to « build » your changes and show them to your email mark
 ##### Email Sending with `gulp send`
 
 We use [Mailgun](http://www.mailgun.com/) service to send a test email with your template via the  `gulp send` command line.
-You need to register on mailgun to have an account and a your API Key number.
+You need to register on Mailgun to have an account and an API Key number.
 
 
 ## Notes
-*nimail-saucy-ink is my modified [sassy-ink](https://github.com/faustgertz/sassy-ink) containing some ajustememnet as :
+*nimail-saucy-ink is a modified [sassy-ink](https://github.com/faustgertz/sassy-ink) containing some ajustememnet as :
 - Changing the horizontal gutter widths applied to the grids
 - Added support for the visibility classes on Gmail
 - Adding a fluid block-grid
