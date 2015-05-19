@@ -78,7 +78,7 @@ Nimail | Responsive Email Starterkit
 To compile your assets during development, run `gulp serve` in the command line.  This will do the following :
 
 - Run the BrowserSync livereload development server, it will refresh your browser window with any changes
-- Compile the Sass files within the `/sass/` folder and render them in the `/css/` folder
+- Compile the Sass files within the `/scss/` folder and render them in the `/css/` folder
 - Compile all partials in the `index.html` file and launch it in the server
 
 
