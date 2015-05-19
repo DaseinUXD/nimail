@@ -1,10 +1,10 @@
 Nimail | Responsive Email Starterkit
 ====================
 
-**Nimail** is a starterkit base on the [unofficial Sass port of Ink](https://github.com/faustgertz/sassy-ink) of Zurb's excellent [Ink](http://zurb.com/ink/) responsive email template system. Nimail is integrated into a Gulp and Sass workflow for automated Css inlining, editing template with includes partials, uploads assets and easy email testing with [Mailgun](http://www.mailgun.com/).
+**Nimail** is a starterkit base on the [unofficial Sass port of Ink](https://github.com/faustgertz/sassy-ink) of Zurb's excellent [Ink](http://zurb.com/ink/) responsive email template system. Nimail is integrated into a **Gulp** and **Sass** workflow for automated CSS inlining, editing template with includes partials, uploads assets and easy email testing with [Mailgun](http://www.mailgun.com/).
 
 
-#### Features :
+##### Features :
 - BrowserSync livereload development
 - Zurb’s Ink template system
 - Sass compilation
@@ -16,12 +16,12 @@ Nimail | Responsive Email Starterkit
 
 ## Installation
 
-#### Download this repository as a ZIP file or clone it to your local machine :
+##### Download this repository as a ZIP file or clone it to your local machine :
 
 	git clone git@github.com:hellodeloo/nimail.git
 
 
-#### You'll also need the following tools :
+##### You'll also need the following tools :
 
 - [Node.js](http://nodejs.org/)
 - [Gulp](http://gulpjs.com/)
@@ -29,7 +29,7 @@ Nimail | Responsive Email Starterkit
 - [Mailgun](http://www.mailgun.com/) *[API Key]*
 
 
-#### At the root of your local repository :
+##### At the root of your local repository :
 
 1. Duplicate the directory `/nimail-sassy-ink/`  (or nimail-saucy-ink *) and give it the name of your new email
 2. Adjust some **vars** and **paths** in the `gulpfile.js` file
@@ -37,7 +37,7 @@ Nimail | Responsive Email Starterkit
 4. Work your html structure in the **index.temp.html** file
 5. Add your specific styles in the `/stylesheets/scss/styles.scss` file
 
-#### In the directory structure :
+##### In the directory structure :
 - `index.temp.html` is your main html working file
 - `index.html` is the html file that is launched in the livereload server
 - `mail.html` is the delivery file with inline styles
@@ -60,7 +60,7 @@ Nimail | Responsive Email Starterkit
 
 ## Usage
 
-#### First, adjust some vars and paths in the in the `gulpfile.js` file :
+##### First, adjust some vars and paths in the in the `gulpfile.js` file :
 - The name of the working directory of your email
 - The absolute url where the email images from the test will be accessible
 - The FTP directory where the email will be transferred files
@@ -73,8 +73,7 @@ Nimail | Responsive Email Starterkit
 - The subject of your email test
 
 
-#### The `gulpfile.js` contains some useful tasks :
-###### Development with `gulp serve`
+##### Development with `gulp serve`
 
 To compile your assets during development, run `gulp serve` in the command line.  This will do the following :
 
