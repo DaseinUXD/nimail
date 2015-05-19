@@ -1,0 +1,36 @@
+/**********************************************
+* Saucy Ink - Little custom of Sassy Ink		 *
+* Inkmail - Little custom of Ink 		       *
+* Ink v1.0.5 - Copyright 2013 ZURB Inc        *
+**********************************************/
+
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Behold, here are all the Ink components.
+@import
+	"ink/settings",
+	"ink/components/normalize",
+	"ink/components/grid",
+	"ink/components/block-grid",
+	"ink/components/fluid-grid", /* Saucy Ink custom */
+	"ink/components/alignment",
+	"ink/components/type",
+	"ink/components/panels",
+	"ink/components/buttons",
+	"ink/components/outlook-first",
+	"ink/components/media-query";
+
+
+
+/**********************************************
+* Custom Nimail 								       *
+**********************************************/
+
+// Below, all the custom email styles.
+body, .body {
+  background: #ffffff;
+}
+h6 {
+	color: #82CCE5;
+}
