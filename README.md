@@ -50,7 +50,7 @@ Nimail | Responsive Email Starterkit
 │   ├── mail.html
 │   ├── test.html
 │   ├── partials/
-│   │   ├── *_.part.html
+│   │   ├── _*.part.html
 │   ├── stylesheets/
 │   │   ├── css
 │   │   ├── scss
@@ -106,7 +106,7 @@ You need to register on Mailgun to have an account and an API Key number.
 - Adding a tiny-only medias-queries
 You should find them by searching  /* Saucy Ink custom */ in the scss files (yes i know, i must use a additionnal scss file to put my ajustememnet)
 
-You should see [Email on acid](http://www.emailonacid.com/) tests for **nimail-sassy--ink** [here](https://www.emailonacid.com/app/acidtest/display/summary/Ia7wGO09xB8rsk1u6J8KsxqpQw0Of2s6bf9i2SagmBy1i/shared) and for **nimail-saucy-ink** [here](https://www.emailonacid.com/app/acidtest/display/summary/vntH4QaOytAOSSMrQGQY3DCxuZkdIjOEfzUdzjRPqN4dS/shared).
+You should see [Email on acid](http://www.emailonacid.com/) tests for **nimail-sassy-ink** [here](https://www.emailonacid.com/app/acidtest/display/summary/Ia7wGO09xB8rsk1u6J8KsxqpQw0Of2s6bf9i2SagmBy1i/shared) and for **nimail-saucy-ink** [here](https://www.emailonacid.com/app/acidtest/display/summary/vntH4QaOytAOSSMrQGQY3DCxuZkdIjOEfzUdzjRPqN4dS/shared).
 
 
 ## Inspired By…

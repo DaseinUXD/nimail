@@ -126,7 +126,7 @@ gulp.task('serve', function() {
 // Replace Task
 gulp.task('replace', function(){
   return gulp.src(config.nimaillocaldir+'mail.html')
-    .pipe(replace('img src="', 'img src="'+config.nimailtesturl))
+    .pipe(replace('src="', 'src="'+config.nimailtesturl))
     .pipe(rename('test.html'))
     .pipe(gulp.dest(config.nimaillocaldir));
 })
