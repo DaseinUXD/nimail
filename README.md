@@ -73,9 +73,9 @@ Nimail | Responsive Email Starterkit
 - The subject of your email test
 
 
-##### Development with `gulp serve`
+##### Development with `gulp watch`
 
-To compile your assets during development, run `gulp serve` in the command line.  This will do the following :
+To compile your assets during development, run `gulp watch` in the command line.  This will do the following :
 
 - Run the BrowserSync livereload development server, it will refresh your browser window with any changes
 - Compile the Sass files within the `/scss/` folder and render them in the `/css/` folder

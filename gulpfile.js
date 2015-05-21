@@ -161,8 +161,8 @@ gulp.task('default', function() {
     runSequence('convertstyles', 'fileinclude');
 });
 
-// Serve Tasks
-gulp.task('serve', function() {
+// Watch Tasks
+gulp.task('watch', function() {
     runSequence('convertstyles', 'fileinclude', 'serve');
 });
 
