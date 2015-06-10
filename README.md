@@ -52,8 +52,8 @@ Nimail | Responsive Email Starterkit
 │   ├── partials/
 │   │   ├── _*.part.html
 │   ├── stylesheets/
-│   │   ├── css
-│   │   ├── scss
+│   │   ├── css/
+│   │   ├── scss/
 ```
 
 
